@@ -30,8 +30,14 @@ a {
     box-shadow: 0px 0px 10px rgba(31, 36, 45, 0.5);
 }
 .logo{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+
+}
+.logo:hover{
+    color: white;
 }
 
 .navbar ul{
@@ -325,15 +331,26 @@ a {
 
 .box{
     width: 20%;
-    background-color: silver;
+    border: #7cf03d solid 1px;
     height: 10%; 
     margin: 12% 0;
-    padding: 1rem;
-    border-radius: 6px;
+    padding: 2rem;
+    border-radius: 5%;
+    backdrop-filter: blur(10px);
+    color: turquoise;
 }
+
+
 
 .box img{
     width: 300px;
     height: 300px;
-    
+    filter: grayscale(100%);
+    border-radius: 50%;
+    transition: filter 0.5s ease;  
+
+}
+.box img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
 }
