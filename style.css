@@ -204,7 +204,9 @@ a {
         padding: 60px 3%;
         flex-direction: column;
         align-items: center;   
-        justify-self: start;     
+        justify-self: start;  
+        height: 180vh; 
+        
 
     }
     .home-info h1{
@@ -254,7 +256,7 @@ a {
 /* about section */
 .box{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,9 +278,9 @@ a {
     margin-top: -2%;
     width: 100%;
     height: 90%;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     /* background-color: antiquewhite; */
     border-radius: 20px;
     box-shadow: 0px 0px 10px #7cf03d;
