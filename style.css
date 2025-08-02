@@ -25,6 +25,9 @@ a {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: rgba(31, 36, 45, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(31, 36, 45, 0.5);
 }
 .logo{
     font-size: 30px;
@@ -247,3 +250,37 @@ a {
 
     }
 } 
+
+/* about section */
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 9%;
+}
+
+.contain-three{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.contain-three .box-item {
+    margin-top: -2%;
+    width: 100%;
+    height: 90%;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #7cf03d;
+    padding: 20px;
+}
