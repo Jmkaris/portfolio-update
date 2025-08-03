@@ -495,10 +495,16 @@ a {
 .form textarea::placeholder{
     color: #1f242d;
 }
+.form h1{
+    color: beige;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
 footer{
     width: 150%;
     height: 100px;
-    background-color: rgba(6, 20, 46, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
@@ -506,4 +512,16 @@ footer{
     color: white;
     font-size: 16px;
     font-weight: 400;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+
+}
+footer a{
+    color: #7cf03d;
+    text-decoration: none;
+    margin-left: 5px;  
+    font-size: 30px;
 }
