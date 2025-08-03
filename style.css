@@ -365,13 +365,40 @@ a {
     color: turquoise;
 }
 
+.box button{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: turquoise;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 10px turquoise;
+    border: 2px solid turquoise;
+    text-align: center;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.box button:hover{
+    background: transparent;
+    transform: translateY(2px);
+    color: turquoise;
+    cursor: pointer;
+    box-shadow: 2px 0px 6px 1px rgb(255, 255, 255);
+}
 
 
 .box img{
     width: 300px;
     height: 300px;
     filter: grayscale(100%);
-    border-radius: 50%;
+    border-radius: 10px;
     transition: filter 0.5s ease;  
 
 }
@@ -387,3 +414,4 @@ a {
     text-align: center;
     color: turquoise;
 }
+
