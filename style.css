@@ -64,7 +64,7 @@ a {
 .home{
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     position: relative;
     padding: 60px 9% 0;
@@ -123,7 +123,7 @@ a {
 }
 .home-img {
     position: absolute;
-    right: 1%;
+    right: .5%;
     top: 50%;
     transform: translateY(-50%);
     /* display: flex; */
@@ -421,4 +421,89 @@ a {
     margin-top: 10px;
     text-align: center;
     
+}
+
+.both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 9%;
+    margin-top: 20px;
+}
+.form{
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 2% 9%;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #1f242d; */
+    margin-bottom: 20px;
+}
+.form input::placeholder{
+    color: #1f242d;
+}
+.form button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;   
+    font-size: 16px;
+    font-weight: 800;
+    color: #1f242d;
+    background-color: #50a025;
+    transition: 0.3s ease;      
+    box-shadow: 0px 0px 10px #7cf03d;
+    border: 2px solid #7cf03d;
+   justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+    margin-top: 10px;
+}
+.form button:hover{
+    background-color: transparent;
+    color: #7cf03d;
+    transform: translateY(2px);
+    box-shadow: 2px 0px 6px 1px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.form textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    resize: none;
+}
+.form textarea::placeholder{
+    color: #1f242d;
+}
+footer{
+    width: 150%;
+    height: 100px;
+    background-color: rgba(6, 20, 46, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
 }
