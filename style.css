@@ -499,6 +499,7 @@ footer a{
   .home-img {
     margin-top: 20px;
     width: 80%;
+    display: none;
   }
 
   .contain-three {
@@ -518,23 +519,7 @@ footer a{
     width: 100%;
     text-align: center;
   } 
-  .buttons {
-    width: 100%;
-    padding: 10px;
-    background-color: transparent;
-    color: turquoise;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 40px;
-    transition: 0.3s ease;
-    box-shadow: 0px 0px 10px turquoise;
-    border: 2px solid turquoise;
-    text-align: center;
-    cursor: pointer;
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    margin-top: 10px;
-  }
+
   .buttons .btns{
     width: 100%;
     padding: 10px;
