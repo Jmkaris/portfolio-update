@@ -318,6 +318,11 @@ a {
     .contain-three .box-item p {
         font-size: 14px;
     }
+    .all{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 5%;
+    }
     .btns {
         width: 100%;
         text-align: center;
